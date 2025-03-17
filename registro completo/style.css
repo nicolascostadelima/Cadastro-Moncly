@@ -1,0 +1,29 @@
+.log {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.aut {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+}
+
+.line {
+    border: 0;
+    height: 2px;
+    background-color: #02a9fe;
+}
+
+h1 {
+    margin-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

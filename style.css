@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@media only screen and (max-width: 1023px) {
+    :root {
+        /* Paleta de Cores */
+        --color01: #ECEFF1;
+        --color02: black;
+        --color03: #02a9fe;
+    }
+    
+    :root {
+        /* Fonts Utilizadas */
+       --font001: "Lato", sans-serif;
+       --font002: "Space Grotesk", sans-serif;
+    }
+    
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .left > img {
+        width: 600px;
+        height: 560px;
+        margin-left: 10px;
+        margin-top: 70px;
+        display: none;
+    }
+    
+    .left {
+        width: 1050px;
+        background-color: white;
+        border-radius: 10px;
+        display: inline-flex;
+        padding-left: 115px;
+        margin-right: 280px;
+    }
+    
+    .right > .login > img{
+        /* filter: drop-shadow( 0px 0px 2px #02a9fe); */
+        margin-left: 190px;
+    }
+    
+    .right {
+        font-family: var(--font001);
+        
+    }
+    
+    
+    .right > h1 {
+        font-size: 43px;
+        float: right;
+        margin-left: 20px;
+    }
+    
+    button:hover {
+        box-shadow: 0px 0px 20px #02a9fe;
+        width: 270px;
+        font-size: 22px;
+        transition: 500ms;
+    }
+    
+    button {
+        border: none;
+        margin-left: 200px;
+        margin-top: 5px;
+        width: 270px;
+        height: 34px;
+        background-color: #02a9fe;
+        border-radius: 90px;
+        color: #ECEFF1;
+        font-size: 19px;
+        font-family: var(--font002);
+        cursor: pointer;
+    }
+    button > a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .login > h1 {
+        font-family: var(--font001);
+        color: #02a9fe;
+        margin-left: 245px;
+        display: inline-flex;
+        font-size: 50px;
+    }
+    
+    .inpt > input:focus::placeholder {
+        color: #02A9FE;
+        transition: 450ms;
+    }
+    
+    .inpt > p {
+       font-family: var(--font001);
+       font-size: 18px;
+       margin: 0px;
+       padding-bottom: 4px;
+    }
+    
+    .inpt > input{
+        border-radius: 5px;
+        width: 335px;
+        height: 19px;
+        outline: none;
+        border: 1px solid #000000;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .inpt {
+        margin-left: 160px;
+        margin-top: 10px;
+    }
+    
+    .inpt > .remember {
+        font-size: 15px;
+        margin-top: 10px;
+        
+    }
+    
+    .logos > a > img{
+      width: 30px;
+      padding: 10px;
+      margin-left: 14px;
+    }
+    
+    
+    .logos > h1 {
+        font-size: 15px;
+        color: rgb(119, 119, 119);
+    }
+    
+    .logos {
+        margin-left: 225px;
+        margin-top: 27px;
+    }
+    
+    .teste > .remember {
+        font-size: 10px;
+    }
+    
+    .teste {
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .Genero  {
+        border-radius: 5px;
+        width: 349px;
+        height: 39px;
+        outline: none;
+        border: 1px solid #000000;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .gnr > p {
+        font-family: var(--font001);
+        font-size: 18px;
+        margin: 0px;
+        padding-bottom: 4px;
+     }
+     
+     .perfil > img {
+        margin-left: 305px;
+        margin-top: 25px;
+     }
+    
+     .gnr {
+        margin-top: 11px;
+     }
+}
+
+@media only screen and (min-width: 1024px) {
+:root {
+    /* Paleta de Cores */
+    --color01: #ECEFF1;
+    --color02: black;
+    --color03: #02a9fe;
+}
+
+:root {
+    /* Fonts Utilizadas */
+   --font001: "Lato", sans-serif;
+   --font002: "Space Grotesk", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.left > img {
+    width: 600px;
+    height: 560px;
+    margin-left: 1px;
+    margin-top: 70px;
+}
+
+.left {
+    width: 1050px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-flex;
+    padding-left: 20px;
+    margin-right: 230px;
+}
+
+.right > .login > img{
+    margin-left: 250px;
+}
+
+.right {
+    font-family: var(--font001);
+    
+}
+
+
+.right > h1 {
+    font-size: 43px;
+    float: right;
+    margin-left: 20px;
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px #02a9fe;
+    width: 270px;
+    font-size: 22px;
+    transition: 500ms;
+}
+
+button {
+    border: none;
+    margin-left: 260px;
+    margin-top: 5px;
+    width: 270px;
+    height: 34px;
+    background-color: #02a9fe;
+    border-radius: 90px;
+    color: #ECEFF1;
+    font-size: 19px;
+    font-family: var(--font002);
+    cursor: pointer;
+}
+button > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.login > h1 {
+    font-family: var(--font001);
+    color: #02a9fe;
+    margin-left: 265px;
+    display: inline-flex;
+    font-size: 50px;
+}
+
+.inpt > input:focus::placeholder {
+    color: #02A9FE;
+    transition: 450ms;
+}
+
+.inpt > p {
+   font-family: var(--font001);
+   font-size: 18px;
+   margin: 0px;
+   padding-bottom: 4px;
+}
+
+.inpt > input{
+    border-radius: 5px;
+    width: 400px;
+    height: 19px;
+    outline: none;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.inpt {
+    margin-left: 190px;
+    margin-top: 10px;
+}
+
+.inpt > .remember {
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+
+.logos > a > img{
+  width: 30px;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+
+.logos > h1 {
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+}
+
+.logos {
+    margin-left: 290px;
+    margin-top: 27px;
+}
+
+.teste > .remember {
+    font-size: 10px;
+}
+
+.teste {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.Genero  {
+    border-radius: 5px;
+    width: 414px;
+    height: 39px;
+    outline: none;
+    border: 1px solid #000000;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.gnr > p {
+    font-family: var(--font001);
+    font-size: 18px;
+    margin: 0px;
+    padding-bottom: 4px;
+ }
+ 
+ .perfil > img {
+    margin-left: 360px;
+    margin-top: 35px;
+ }
+
+ .gnr {
+    margin-top: 10px;
+ }
+}
