@@ -15,6 +15,10 @@
        --font002: "Space Grotesk", sans-serif;
     }
     
+   .erro{
+    color: red;
+   }
+
     body {
         display: flex;
         justify-content: center;
