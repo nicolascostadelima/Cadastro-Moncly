@@ -7,6 +7,6 @@ function Validar(){
         window.alert("Digite os campos faltentes!");
     }
     else{
-        window.location.href = "./registro completo/index.html";
+        window.location.href = "../registro completo/index.html";
     }
 }
